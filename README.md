@@ -16,6 +16,7 @@
   drawerToggleRoute: 'DrawerToggle',  
   第三：关于DrawerNavigator侧边栏的宽度问题，建议用 width = Dimensions.get('window').width - 100 或者 Dimensions.get('window').width * 8 /10 的方式计算宽度。
 第四：侧边栏自定义，这里我出现里一个很小又让我苦恼好一会的问题，我没有给侧边栏的页面最外成加flex：1，造成了显示上很大的问题，它直接是肉眼不可见了，让我误会好久以为出现了bug，侧边栏不见了，其实它是高度没有撑开，缩在了最顶上。所以别忘了最外层的flex：1
+  第四：android和ios的屏幕的差别要注意，ios是不包括头部的，android是包括的。
 </div>
 这就是最简单的一个使用DrawerNavigator的APP啦～
 小插曲：在我第一次使用DrawerNavigator的时候项目基础是架构好了的,用了StackNavigator导航，然后说要用DrawerNavigator抽屉，但是上头认为外层必须用
