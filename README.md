@@ -1,5 +1,5 @@
 <h3>项目介绍：</h3>
-<div>这是用create-react-app创建的一个APP项目。
+<div>
   DrawerNavigator是react-navigation中抽屉的形式
   <img src="https://raw.githubusercontent.com/ws199501/simple-DrawerNavigator-APP/master/src/img/app.jpeg" alt="项目截图"/>
 </div>
