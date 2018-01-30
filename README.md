@@ -1,8 +1,8 @@
 <h3>项目介绍：</h3>
 <div>
   DrawerNavigator是react-navigation中抽屉的形式
-  <img src="https://raw.githubusercontent.com/ws199501/simple-DrawerNavigator-APP/master/src/img/app.jpeg" alt="项目截图"/>
 </div>
+<img src="https://raw.githubusercontent.com/ws199501/simple-DrawerNavigator-APP/master/src/img/app.jpeg" alt="项目截图"/>
 <h4>项目里的关于DrawerNavigator的总结：</h4>
 <div>
   第一：DrawerNavigator本身可以有自己的头部，但是用起来感觉有点略微复杂和不好控制，这里我用自己的组件替代了。（components文件里的navigator组件）。
